@@ -6,3 +6,8 @@ use core::panic::PanicInfo;
 fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
+
+#[no_mangle]
+extern "C" fn _start() {
+    loop{};
+}
