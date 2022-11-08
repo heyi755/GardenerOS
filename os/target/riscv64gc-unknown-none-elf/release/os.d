@@ -1,1 +1,1 @@
-/root/GardenerOS/os/target/riscv64gc-unknown-none-elf/release/os: /root/GardenerOS/os/src/main.rs
+/root/GardenerOS/os/target/riscv64gc-unknown-none-elf/release/os: /root/GardenerOS/os/src/console.rs /root/GardenerOS/os/src/entry.asm /root/GardenerOS/os/src/lang_items.rs /root/GardenerOS/os/src/main.rs /root/GardenerOS/os/src/sbi.rs
