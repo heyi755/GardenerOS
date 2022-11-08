@@ -4,9 +4,11 @@
 use core::arch::asm;
 use core::panic::PanicInfo;
 use core::fmt::{self, Write};
+use core::arch::global_asm;
 
 const SYSCALL_EXIT: usize = 93;
 const SYSCALL_WRITE: usize = 64;
+global_asm!(include_str!("entry.asm"));
 
 struct Stdout;
 
@@ -67,4 +69,9 @@ extern "C" fn _start() {
     //loop{};
     println!("Hello, world!");
     sys_exit(9);
+}
+
+#[no_mangle]
+pub fn rust_main() -> ! {
+    loop{};
 }
