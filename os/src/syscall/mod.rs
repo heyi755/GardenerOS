@@ -15,3 +15,6 @@ pub fn syscall(syscall_id: usize, args: [usize; 3]) -> isize {
     }
 }
 
+const SYSCALL_YIELD: usize = 124;
+
+SYSCALL_YIELD => sys_yield(),
