@@ -1,0 +1,1 @@
+/root/GardenerOS/user/target/riscv64gc-unknown-none-elf/release/00write_a: /root/GardenerOS/user/src/bin/00write_a.rs /root/GardenerOS/user/src/console.rs /root/GardenerOS/user/src/lang_items.rs /root/GardenerOS/user/src/lib.rs /root/GardenerOS/user/src/syscall.rs
