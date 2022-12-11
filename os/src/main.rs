@@ -5,9 +5,10 @@
 
 use core::arch::global_asm;
 
-extern crate alloc;
 
 #[macro_use]
+extern crate bitflags;
+extern crate alloc;
 mod console;
 mod lang_items;
 mod sbi;
