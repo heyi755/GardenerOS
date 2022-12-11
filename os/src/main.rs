@@ -1,8 +1,11 @@
 #![no_std]
 #![no_main]
 #![feature(panic_info_message)]
+#![feature(alloc_error_handler)]
 
 use core::arch::global_asm;
+
+extern crate alloc;
 
 #[macro_use]
 mod console;
@@ -14,6 +17,9 @@ mod loader;
 mod config;
 mod task;
 mod timer;
+mod mm;
+
+mm::init();
 
 trap::enable_timer_interrupt();
 timer::set_next_trigger();
