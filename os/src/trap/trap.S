@@ -1,5 +1,3 @@
-# os/src/trap/trap.S
-
 .altmacro
 
 .macro SAVE_GP n
