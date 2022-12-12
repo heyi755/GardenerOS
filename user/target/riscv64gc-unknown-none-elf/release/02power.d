@@ -1,1 +1,0 @@
-/root/GardenerOS/user/target/riscv64gc-unknown-none-elf/release/02power: /root/GardenerOS/user/src/bin/02power.rs /root/GardenerOS/user/src/console.rs /root/GardenerOS/user/src/lang_items.rs /root/GardenerOS/user/src/lib.rs /root/GardenerOS/user/src/syscall.rs
