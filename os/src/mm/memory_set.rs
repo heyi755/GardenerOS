@@ -222,6 +222,8 @@ impl MemorySet {
         //*self = Self::new_bare();
         self.areas.clear();
     }
+
+
 }
 
 pub struct MapArea {
